@@ -89,8 +89,8 @@ def visualize_results(image1, image2, ground_truth, matched_points1, matched_poi
 
 # === 7. 실행 ===
 if __name__ == "__main__":
-    image_path1 = "C:/Users/kim/Downloads/building.jpg"  # 비교할 이미지 1
-    image_path2 = "C:/Users/kim/Downloads/building.jpg"  # 비교할 이미지 2
+    image_path1 = "path/building.jpg"  # 비교할 이미지 1
+    image_path2 = "path/building.jpg"  # 비교할 이미지 2
 
     # 이미지 로드 및 전처리
     img1 = preprocess_image(image_path1)

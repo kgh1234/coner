@@ -18,11 +18,11 @@ def load_ground_truth(csv_path):
         sys.exit()
 
 # Ground Truth 데이터 경로
-ground_truth_path = 'C:/Users/kim/PycharmProjects/pythonProject1/ground_truth.csv'
+ground_truth_path = 'path/ground_truth.csv'
 ground_truth = load_ground_truth(ground_truth_path)
 
 # === 2. 이미지 로드 ===
-src = cv2.imread('C:/Users/kim/Downloads/building.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('path/building.jpg', cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print('Image load failed!')

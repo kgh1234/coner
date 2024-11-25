@@ -7,8 +7,11 @@ Problem: When comparing the FAST and Good Features to Track (Good) algorithms, F
 Solution: On the other hand, Good Features to Track demonstrated relatively higher accuracy, so it was chosen as the Ground Truth. Using SIFT (Scale-Invariant Feature Transform), we aimed to improve the accuracy of FAST.
 
 coner.py: Outputs the results of the GFTT and FAST corner detection algorithms.
+
 Ground_Truth.py: Exports the ground truth (GFTT) results as a CSV file.
+
 accuracy.py: Calculates and outputs the accuracy of GFTT and FAST.
+
 result.py: Displays the accuracy after applying SIFT.
 
 Key Results

@@ -3,7 +3,7 @@ import sys
 import numpy as np
 
 
-src = cv2.imread('C:/Users/kim/Downloads/building.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('path/building.jpg', cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print('Image load faile!')
